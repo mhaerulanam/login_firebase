@@ -103,8 +103,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
             validator: (password) {
               if (password == "" || password!.isEmpty) {
                 return "Password is required";
-              } else if (password.length < 6) {
-                return "Password must more than 6 character";
+              } else if (password.length < 4) {
+                return "Password must more than 4 character";
               }
               return null;
             },
