@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:login_firebase/modules/auth/auth_screen.dart';
 import 'package:login_firebase/modules/confirmation/confirm_screen.dart';
+import 'package:login_firebase/modules/home/home_screen.dart';
 
 import 'utils/utils.dart';
 
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const MainPage(),
       routes: {
-        ConfirmationScreen.routeName: (context) => const ConfirmationScreen()
+        ConfirmationScreen.routeName: (context) => const ConfirmationScreen(),
       },
     );
   }

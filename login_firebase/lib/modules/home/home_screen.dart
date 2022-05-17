@@ -4,6 +4,7 @@ import 'package:login_firebase/config/themes.dart';
 import 'package:login_firebase/widgets/components/app_button.dart';
 
 class HomeScreen extends StatefulWidget {
+  static const String id = 'home_page';
   const HomeScreen({Key? key}) : super(key: key);
 
   @override

@@ -106,7 +106,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           AppButton(
             text: "Login",
-            onPressed: () {},
+            onPressed: (){},
             options: const ButtonOptions(
               width: double.infinity,
               height: 48,
